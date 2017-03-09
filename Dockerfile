@@ -4,7 +4,7 @@ FROM alpine:latest
 MAINTAINER Dominik Hahn <dominik@monostream.com>
 
 # Define rancher version
-ENV RANCHER_CLI_VERSION=v0.4.1
+ENV RANCHER_CLI_VERSION=v0.5.0
 
 # Install dependencies and rancher
 RUN apk add --quiet --no-cache ca-certificates && \
